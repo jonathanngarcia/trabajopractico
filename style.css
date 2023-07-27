@@ -9,7 +9,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+   scroll-behavior: smooth;
 }
+
+ 
+
 
 .cabecero {
   width: 100%;
@@ -354,64 +358,59 @@ h1:hover {
   align-items: center;
 }
 
-.video_pie {
-  display: flex;
-  z-index: -1;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  position: absolute;
-  pointer-events: none;
-}
+
 
 .pie {
-  position: relative;
-
+  
+background-image: url(./img/vista-superior-accesorios-maquillaje-espacio-copia\ -\ copia.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
   width: 100%;
   display: flex;
-  justify-content: center;
-  flex-direction: row-reverse;
-  align-items: center;
+justify-content:center;
+ align-items: center;
 }
 .pie_box {
-  margin-top: 200px;
-  height: 400px;
-  width: 800px;
+  
+  height: 500px;
+  width: 600px;
   display: flex;
-  justify-content: space-around;
+  justify-content:space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  margin-left: 200px;
+ 
 }
 .pie_box li {
   display: inline-block;
   flex-wrap: wrap;
-  width: 200px;
+ width: 150px;
   cursor: pointer;
   font-weight: 800;
-  margin: 30px;
+  margin: 5px;
   padding: 5px;
   list-style-type: none;
 }
 .pie_box li a {
   cursor: pointer;
-
+display: flex;
+padding: 5px;
   text-decoration: none;
   color: rgb(90, 7, 112);
 }
 .pie_redes {
   width: 25%;
   display: flex;
-  justify-content: end;
+  justify-content: center;
   flex-direction: column;
-  align-items: end;
+  align-items: flex-start;
   list-style-type: none;
 }
 .pie_title {
   width: auto;
-
   display: flex;
-  margin-bottom: 80px;
+  align-items: flex-start;
+ 
   font-size: 35px;
 }
 .pie_redes li {
@@ -420,36 +419,102 @@ h1:hover {
   padding: 5px;
   list-style-type: none;
   margin: 5px;
-  border-radius: 5px;
+  
 }
 
-.firma {
-  margin-top: 130px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  font-size: 20px;
-  color: #431fa6;
-}
 
 .caja_mapa {
-  width: 30%;
+  width: 25%;
   height: 600px;
   display: flex;
-  justify-content: end;
-  align-items: end;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 .mapa {
   display: flex;
-  width: 300px;
+  width: 200px;
   height: 200px;
 }
-.text_mapa {
-  font-size: 30px;
-  display: flex;
-  margin-bottom: 140px;
-  color: #421bb0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nosotros{
+margin-top: -20px;
+width: 100%;
+height: 1200px;
+background-image: url(./img/woman-2564660_1920.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+
 }
+.caja_rosa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+margin: 100px 150px -400px 70px;
+width: 350px;
+color: #c835ed;
+
+
+}
+.caja_azul{
+  width: 350px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+color: #421bb0;
+
+margin: 100px 100px 400px 70px;
+
+}
+ 
+
+.text_nosotros{
+font-size: 40px;
+margin: 20px;
+padding: 5px;
+
+}
+.p_nosotros{
+ margin: 20px;
+
+
+}
+

@@ -14,7 +14,7 @@
     <meta property="og:title" content=" ellas">
     <meta property="og:description" content=" todo para ellas">
     <meta property="og:site_name" content=" ellas">
-      <title>ellas</title>
+      <title>Ellas</title>
   </head>
 <body>
 <header class="cabecero">
@@ -22,9 +22,9 @@
    
       <nav>
         <ul class="nav-links">
-          <li><a href="#">Productos</a></li>
-          <li><a href="#">Galeria</a></li>
-          <li><a href="#">Nosotros</a></li>
+          <li><a href="./productos.html">Productos</a></li>
+          <li><a href="#fotos">Galeria</a></li>
+          <li><a href="./nosotros.html">Nosotros</a></li>
         </ul>
       </nav>
       <a href="./index.html" class="btn"> Inicio </a>
@@ -37,14 +37,34 @@
 <ul>
 <li><a href="#"> 
 Kits</a></li>
-<li><a href="#"> Maquillaje</a></li>
-<li><a href="#"> Uñas</a></li>
-<li><a href="#"> Fragancias</a></li>
-<li><a href="#"> Accesorios</a></li>
-<li><a href="#">¿Como comprar?</a></li>
-<li><a href="#"> <i class="fa-brands fa-whatsapp fa-2xl"></i></a></li>
-<li><a href="#"><i class="fa-brands fa-facebook fa-2xl"></i></a></li>
-<li><a href="#">  <i class="fa-brands fa-instagram fa-2xl"></i></i></a></li>
+<li><a href="#cremas"> Cremas</a></li>
+<li><a href="./nosotros.html"> nosotros</a></li>
+<li><a href="#fragancias"> Fragancias</a></li>
+<li><a href="#accesorio"> Accesorios</a></li>
+<li><a href="https://www.pedidosporwhatsapp.com.ar/NATURA" target="_blank">¿Como comprar?</a></li>
+ <li>
+              <a
+                href="https://www.pedidosporwhatsapp.com.ar/NATURA"
+                target="_blank"
+              >
+                <i class="fa-brands fa-whatsapp fa-2xl"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/Natura.Argentina/?locale=es_LA"
+                target="blank"
+                ><i class="fa-brands fa-facebook fa-2xl"> </i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/natura.argentina/"
+                target="_blank"
+              >
+                <i class="fa-brands fa-instagram fa-2xl"></i
+              ></a>
+            </li>
 </ul>
 </nav>
 </div>
@@ -57,7 +77,7 @@ Kits</a></li>
         <div class="caja ">
         
           <figure class="cont_image">
-            <img loading="lazy"
+            <img  loading="lazy"
               src="./img/tododia.jpg"
               class="image"
               alt=""
@@ -97,7 +117,7 @@ Kits</a></li>
               alt=""
             />
           </figure>
-          <div class="text_productos">
+          <div id="fragancias" class="text_productos">
             <h2 class="title_productos">Cremas corporales todo dia</h2>
 <p class="precio_crema_productos" >$3.399,99</p>
             <p class="parrafo_productos">
@@ -134,8 +154,8 @@ Kits</a></li>
 
 
 
-<section class="container_galery">
-<h2 class="text_galery">Productos de primera</h2>
+<section  class="container_galery">
+<h2 id="fotos" class="text_galery">Productos de primera</h2>
 
 
 <div class="caja_galery">
@@ -155,7 +175,7 @@ Kits</a></li>
 </div>
 <div class="caja_galery">
 <figure class="img_galery">
-  <img  loading="lazy"  src="./img/galeria44.png" alt="imagen-productos">
+  <img id="accesorio" loading="lazy"  src="./img/galeria44.png" alt="imagen-productos">
 </figure>
 </div>
 <div class="caja_galery">
@@ -182,7 +202,7 @@ Kits</a></li>
   <img loading="lazy"   src="./img/galeria9.jpg" alt="imagen-productos">
 </figure>
 </div>
-<div class="caja_galery">
+<div id="cremas" class="caja_galery">
 <figure class="img_galery">
   <img loading="lazy"   src="./img/galeria10.jpg" alt="imagen-productos">
 </figure>
@@ -247,9 +267,9 @@ Kits</a></li>
 
 
 
-
+   
     <footer class="pie">
-    
+     
       <div class="pie_box">
         <ul>
           <li><a href="#">Términos y Condiciones</a></li>
@@ -270,31 +290,37 @@ Kits</a></li>
       <div class="pie_redes">
         <h2 class="pie_title">Contactenos</h2>
         <ul>
-
           <li>
             <a href="#">
-              <i class="fa-brands fa-instagram" style="color: #ffffff"></i>
+              <i class="fa-brands fa-instagram fa-2xl"></i>
             </a>
           </li>
 
           <li>
             <a href="#">
-              <i class="fa-brands fa-facebook" style="color: #ffffff"></i>
+              <i class="fa-brands fa-whatsapp fa-2xl"></i>
             </a>
           </li>
 
           <li>
             <a href="#">
-              <i class="fa-brands fa-whatsapp" style="color: #ffffff"></i>
+              <i class="fa-brands fa-facebook fa-2xl"></i>
             </a>
           </li>
-
         </ul>
       </div>
-    
+      <div class="caja_mapa">
+        <iframe
+          class="mapa"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52640.13456606258!2d-58.69963641769187!3d-34.451934390012795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca39ca574d823%3A0xd4fb0a11188d493e!2sGral.%20Pacheco%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1690429539171!5m2!1ses!2sar"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+     
     </footer>
 
-
-    
-</body>
+   
+  </body>
 </html>
