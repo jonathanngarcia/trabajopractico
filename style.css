@@ -9,13 +9,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-   scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
- body{
+body {
   overflow-x: hidden;
- }
-
+}
 
 .cabecero {
   width: 100%;
@@ -130,6 +129,9 @@ H1 {
 h1:hover {
   color: #d57eeb;
 }
+
+/* css de cards principales */
+
 .title_cards {
   text-align: center;
   width: 100%;
@@ -174,6 +176,7 @@ h1:hover {
   padding: 5px;
 }
 
+/* css de galeria de fotos */
 .container_galery {
   width: 100%;
   display: flex;
@@ -215,6 +218,8 @@ h1:hover {
   transform: scale(1.2);
 }
 
+/* css del index productos */
+
 .videorosa {
   z-index: -1;
 
@@ -225,7 +230,7 @@ h1:hover {
 .container {
   display: flex;
   width: 100%;
-
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   margin-top: 50px;
@@ -235,7 +240,6 @@ h1:hover {
 
 .caja {
   width: 90%;
-flex-wrap: wrap;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -352,41 +356,74 @@ flex-wrap: wrap;
   font-weight: 600;
 }
 
-.caja_video_pie {
-  display: flex;
+/* css del index nosotros */
+
+.nosotros {
+  margin-top: -20px;
   width: 100%;
-  justify-content: center;
-  position: absolute;
+  height: 1200px;
+  background-image: url(./img/woman-2564660_1920.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: space-between;
+}
+.caja_rosa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 100px 150px -400px 70px;
+  width: 350px;
+  color: #c835ed;
+}
+.caja_azul {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #421bb0;
+
+  margin: 100px 100px 400px 70px;
 }
 
+.text_nosotros {
+  font-size: 40px;
+  margin: 20px;
+  padding: 5px;
+}
+.p_nosotros {
+  margin: 20px;
+}
 
+/* css footers  */
 
 .pie {
-
-background-image: url(./img/vista-superior-accesorios-maquillaje-espacio-copia\ -\ copia.jpg);
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
+  background-image: url(./img/vista-superior-accesorios-maquillaje-espacio-copia\ -\ copia.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
   display: flex;
-justify-content:center;
- align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 .pie_box {
-  
   height: 500px;
   width: 600px;
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
- 
 }
 .pie_box li {
   display: inline-block;
   flex-wrap: wrap;
- width: 150px;
+  width: 150px;
   cursor: pointer;
   font-weight: 800;
   margin: 5px;
@@ -395,8 +432,8 @@ justify-content:center;
 }
 .pie_box li a {
   cursor: pointer;
-display: flex;
-padding: 5px;
+  display: flex;
+  padding: 5px;
   text-decoration: none;
   color: rgb(90, 7, 112);
 }
@@ -412,7 +449,7 @@ padding: 5px;
   width: auto;
   display: flex;
   align-items: flex-start;
- 
+
   font-size: 35px;
 }
 .pie_redes li {
@@ -421,9 +458,7 @@ padding: 5px;
   padding: 5px;
   list-style-type: none;
   margin: 5px;
-  
 }
-
 
 .caja_mapa {
   width: 25%;
@@ -438,85 +473,3 @@ padding: 5px;
   width: 200px;
   height: 200px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.nosotros{
-margin-top: -20px;
-width: 100%;
-height: 1200px;
-background-image: url(./img/woman-2564660_1920.jpg);
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-display: flex;
-flex-wrap: wrap;
-align-items: center;
-justify-content: space-between;
-
-}
-.caja_rosa{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-margin: 100px 150px -400px 70px;
-width: 350px;
-color: #c835ed;
-
-
-}
-.caja_azul{
-  width: 350px;
-    display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-color: #421bb0;
-
-margin: 100px 100px 400px 70px;
-
-}
- 
-
-.text_nosotros{
-font-size: 40px;
-margin: 20px;
-padding: 5px;
-
-}
-.p_nosotros{
- margin: 20px;
-
-
-}
-
