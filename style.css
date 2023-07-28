@@ -12,7 +12,9 @@
    scroll-behavior: smooth;
 }
 
- 
+ body{
+  overflow-x: hidden;
+ }
 
 
 .cabecero {
@@ -233,7 +235,7 @@ h1:hover {
 
 .caja {
   width: 90%;
-
+flex-wrap: wrap;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -361,7 +363,7 @@ h1:hover {
 
 
 .pie {
-  
+
 background-image: url(./img/vista-superior-accesorios-maquillaje-espacio-copia\ -\ copia.jpg);
 background-position: center;
 background-size: cover;
